@@ -1,12 +1,14 @@
 <script lang="ts"  >
+import { ELEMENT_DARK } from "../../Consts";
+
 import CardModal from "./components/CardModal.svelte";
 import CardTable from "./components/CardTable.svelte";
 import CardModel from "./models/card.model";
 
 let data : CardModel[] = [
     new CardModel(
-        'Dagão Branco',
-        'images/simbols/magic.png',
+        'Dragão Branco',
+        ELEMENT_DARK,
         5,
         'images/main/dragao_branco_olhos_azuis.png',
         'Monstro / Efeito',
@@ -15,7 +17,7 @@ let data : CardModel[] = [
         2000),
     new CardModel(
         'Mago Negro',
-        'images/simbols/magic.png',
+        ELEMENT_DARK,
         7,
         'images/main/mago_negro.png',
         'Mago / Efeito',

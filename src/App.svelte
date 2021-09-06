@@ -2,7 +2,7 @@
 	import { Router, Link, Route } from "svelte-routing";
 	
 	import AboutPage from "./pages/about/AboutPage.svelte";
-	import CardsPage from "./pages/table/CardsPage.svelte";
+	import CardPage from "./pages/table/CardPage.svelte";
 import SideBar from "./side-bar/SideBar.svelte";
 
 </script>
@@ -17,7 +17,7 @@ import SideBar from "./side-bar/SideBar.svelte";
 
 		<div class="content">
 			<Route path="/">
-				<CardsPage />
+				<CardPage />
 			</Route>
 	
 			<Route path="about">

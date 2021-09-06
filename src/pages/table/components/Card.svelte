@@ -1,7 +1,6 @@
 <script lang="ts">
     import CardModel from "../models/card.model";
 
-
     const star = 'images/star.png';
     export let card: CardModel = null;
 </script>
